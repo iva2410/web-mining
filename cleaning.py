@@ -28,5 +28,3 @@ df['Recenzija'] = df['Recenzija'].str.replace(r'\n', ' ', regex=True).str.strip(
 print(f"Broj redova nakon čišćenja: {len(df)}")
 
 df.to_csv('ociscene_recenzije.csv', index=False, encoding='utf-8')
-
-print("USPEH! Tvoja čista baza je spremna u fajlu: ociscene_recenzije.csv")
