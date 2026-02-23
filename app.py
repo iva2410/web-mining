@@ -37,7 +37,7 @@ izabrani_grad = st.sidebar.selectbox("Gde tražimo slične restorane?", options=
 st.sidebar.markdown("---")
 st.sidebar.header("🍕 Šta ti se jede?")
 kuhinja = st.sidebar.multiselect(
-    "Izaberi preferencije:",
+    "Izaberi hranu:",
     options=["Italijanska kuhinja", "Pizza", "Pasta", "Sushi", "Azijska kuhinja", "Meso", "Burger", "Domaća kuhinja", "Riba", "Poslastice"]
 )
 

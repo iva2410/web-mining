@@ -27,4 +27,3 @@ statistika = df.groupby('Grad')['Sentiment_Score'].mean()
 print(statistika)
 
 df.to_csv('finalna_analiza.csv', index=False, encoding='utf-8')
-print("\nSve je završeno! Fajl 'finalna_analiza.csv' je spreman.")
